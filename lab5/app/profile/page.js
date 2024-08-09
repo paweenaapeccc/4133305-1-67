@@ -10,6 +10,7 @@ export default function Profile() {
   useEffect(() => {
     if (status === "unauthenticated") {
       router.push("/");
+      console.log(status);
     }
   }, [status, router]);
 
