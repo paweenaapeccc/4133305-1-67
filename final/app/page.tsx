@@ -9,9 +9,9 @@ const App:React.FC = ()=> {
       <h1>Wellcome To IT.BRU</h1>
       <p>Hello Typecript</p>
 
-      <Basic initVal="1" />
+      <Basic initVal="1" gender="Male" />
 
-      <Hook initHook="5" />
+      <Hook initHook={Number(5)} />
     </>
   );
 };
